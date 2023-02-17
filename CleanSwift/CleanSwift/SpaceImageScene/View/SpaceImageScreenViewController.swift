@@ -5,7 +5,6 @@ import UIKit
 
 /// Контроллер представления сцены с изображением космоса
 final class SpaceImageScreenViewController: UIViewController {
-
     // MARK: - Private constants
 
     private enum Constants {

@@ -5,7 +5,6 @@ import UIKit
 
 /// Контроллер сцены с конвертером размера изображения
 final class SizeConverterViewController: UIViewController {
-
     // MARK: - Private constants
 
     private enum Constants {
@@ -105,11 +104,11 @@ final class SizeConverterViewController: UIViewController {
         ])
     }
 
-    @objc func showMBSizeButtonAction() {
+    @objc private func showMBSizeButtonAction() {
         interactor?.convertImageDataSizeToMB(nil)
     }
 
-    @objc func showKBSizeButtonAction() {
+    @objc private func showKBSizeButtonAction() {
         interactor?.convertImageDataSizeToKB(nil)
     }
 }

@@ -5,7 +5,6 @@ import Foundation
 
 /// Интерактор сцены с изображением космоса
 final class SpaceImageScreenInteractor {
-
     // MARK: - Public properties
 
     var dataStore: [SpaceImageData] = []
@@ -21,7 +20,6 @@ final class SpaceImageScreenInteractor {
         self.networkWorker = networkWorker
         self.presenter = presenter
     }
-
 }
 
 /// Методы SpaceImageScreenDataStoreProtocol

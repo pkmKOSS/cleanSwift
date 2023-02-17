@@ -12,7 +12,7 @@ final class NetworkService: NetworkServiceProtocol {
 
     // MARK: - Public methods
 
-    func fetchImageDescription<T: Codable>(
+    func fetchImageDescription<T: Decodable>(
         urlString: String,
         model: T.Type,
         completion: @escaping (FetchImageDescriptionResult) -> Void
@@ -26,9 +26,7 @@ final class NetworkService: NetworkServiceProtocol {
                 let cinematics = try? self.decoder.decode(model.self, from: data ?? Data())
             else { return }
             let result = FetchImageDescriptionResult.succes(description: cinematics)
-
             completion(result)
-
             if let error = error {
                 completion(FetchImageDescriptionResult.failure(error: error))
             }

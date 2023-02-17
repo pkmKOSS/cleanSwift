@@ -3,7 +3,6 @@
 
 /// Презентер сцены с изображением космоса
 final class SpaceImageScreenPresenter {
-
     // MARK: - Public properties
 
     var viewController: SpaceImageScreenDisplayLogic?

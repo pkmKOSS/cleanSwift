@@ -3,7 +3,6 @@
 
 /// Презентер сцены с конвертером размера изображения
 final class SizeConverterPresenter: SizeConverterPresentingLogic {
-
     // MARK: - Publoc properties
     
     var viewController: SizeConverterDisplayLogic?

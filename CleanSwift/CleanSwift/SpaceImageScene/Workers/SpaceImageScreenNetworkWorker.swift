@@ -3,7 +3,6 @@
 
 /// Воркер сцены с изображением космоса
 final class SpaceImageScreenNetworkWorker {
-
     // MARK: - Private constants
 
     private enum Constants {

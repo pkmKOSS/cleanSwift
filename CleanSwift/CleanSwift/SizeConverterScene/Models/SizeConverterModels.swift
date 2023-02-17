@@ -3,10 +3,6 @@
 
 import Foundation
 
-typealias RequsetSizeModel = SizeConverterModel.ConvertSize.Requset
-typealias ResponseSizeModel = SizeConverterModel.ConvertSize.Response
-typealias SizeViewModel = SizeConverterModel.ConvertSize.ViewModel
-
 /// Модель конвертера размера изображения
 enum SizeConverterModel {
     enum ConvertSize {

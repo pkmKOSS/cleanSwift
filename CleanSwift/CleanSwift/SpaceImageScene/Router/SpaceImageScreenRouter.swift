@@ -5,7 +5,6 @@ import UIKit
 
 /// Роутер сцены с изображением космоса
 final class SpaceImageScreenRouter {
-
     // MARK: - Public properties
 
     weak var viewController: UIViewController?

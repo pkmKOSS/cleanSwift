@@ -3,12 +3,12 @@
 
 /// Результат обращения к веб сервису за описанием изображения
 enum FetchImageDescriptionResult {
-    case succes(description: Codable)
+    case succes(description: Decodable)
     case failure(error: Error?)
 }
 
 /// Результат обращения к веб сервису с кинофильмами.
 enum FetchImageDataResult {
-    case success(data: Codable)
+    case success(data: Decodable)
     case failure(error: Error?)
 }

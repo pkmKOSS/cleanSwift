@@ -44,6 +44,7 @@
 		6BEBF1C5299EB11700C9920E /* DeepLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BEBF1C4299EB11700C9920E /* DeepLink.swift */; };
 		6BEBF1C8299EBCF700C9920E /* NetworkModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BEBF1C7299EBCF700C9920E /* NetworkModel.swift */; };
 		6BEBF1CA299EC99700C9920E /* NetworkResults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BEBF1C9299EC99700C9920E /* NetworkResults.swift */; };
+		6BEBF1CC299F512A00C9920E /* Typealias.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BEBF1CB299F512A00C9920E /* Typealias.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -86,6 +87,7 @@
 		6BEBF1C4299EB11700C9920E /* DeepLink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeepLink.swift; sourceTree = "<group>"; };
 		6BEBF1C7299EBCF700C9920E /* NetworkModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkModel.swift; sourceTree = "<group>"; };
 		6BEBF1C9299EC99700C9920E /* NetworkResults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkResults.swift; sourceTree = "<group>"; };
+		6BEBF1CB299F512A00C9920E /* Typealias.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Typealias.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -287,6 +289,7 @@
 			isa = PBXGroup;
 			children = (
 				6BEBF1B3299E6A6400C9920E /* SizeConverterModels.swift */,
+				6BEBF1CB299F512A00C9920E /* Typealias.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -440,6 +443,7 @@
 				6BEBF139299E414E00C9920E /* SpaceImageScreenNetworkWorker.swift in Sources */,
 				6BEBF1B4299E6A6400C9920E /* SizeConverterModels.swift in Sources */,
 				6BEBF13F299E41BA00C9920E /* SpaceImageScreenBusinessLogic.swift in Sources */,
+				6BEBF1CC299F512A00C9920E /* Typealias.swift in Sources */,
 				6BEBF13D299E419B00C9920E /* SpaceImageScreenInteractor.swift in Sources */,
 				6BEBF137299E411D00C9920E /* SpaceImageScreenRoutingLogic.swift in Sources */,
 				6BEBF1B2299E6A3800C9920E /* SizeConverterWorkingLogic.swift in Sources */,

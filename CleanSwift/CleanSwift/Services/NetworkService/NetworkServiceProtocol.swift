@@ -3,7 +3,7 @@
 
 /// Протокол работы с сетью
 protocol NetworkServiceProtocol {
-    func fetchImageDescription<T: Codable>(
+    func fetchImageDescription<T: Decodable>(
         urlString: String,
         model: T.Type,
         completion: @escaping (FetchImageDescriptionResult) -> Void

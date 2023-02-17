@@ -3,7 +3,6 @@
 
 /// Интерактор сцены с конвертером размера изображения
 final class SizeConverterInteractor: SizeConverterBusinessLogic, SizeConverterDataStore {
-
     // MARK: - Public properties
 
     var dataStore: RequsetSizeModel

@@ -5,7 +5,6 @@ import Foundation
 
 /// Воркер сцены с конвертером размера изображения
 final class SizeConverterWorker: SizeConverterWorkingLogic {
-
     // MARK: - Public methods
 
     func convertImageDataSizeToMB(_ request: RequsetSizeModel, completion: @escaping (String) -> Void) {
